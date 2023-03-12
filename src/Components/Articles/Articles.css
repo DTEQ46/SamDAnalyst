@@ -39,6 +39,7 @@
 }
 .projectBox .projectText {
   font-family: "Helvetica" sans-serif;
+  font-size: 1.2rem;
   color: #fff;
   max-width: 30rem;
   background: #1818189c;
