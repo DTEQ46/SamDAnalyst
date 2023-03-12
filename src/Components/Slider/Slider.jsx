@@ -72,7 +72,7 @@ const Slider = () => {
       >
         <img src="/assets/images/c1.jpg" alt="" />
         <div>
-          <p>Hi, I am Samuel.</p>
+          <p>Hi, I am Samuel Omolaiye.</p>
         </div>
       </div>
       <div
