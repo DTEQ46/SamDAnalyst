@@ -79,7 +79,7 @@
     max-width: 20rem;
   }
 
-  .articleContainer .projectHead {
+  .articleContainer .projectHead h2 {
     text-align: left;
   }
 }
