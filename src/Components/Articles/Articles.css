@@ -78,4 +78,8 @@
   .projectBox .projectTitle {
     max-width: 20rem;
   }
+
+  .articleContainer .projectHead {
+    text-align: left;
+  }
 }
