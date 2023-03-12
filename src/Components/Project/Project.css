@@ -1,0 +1,81 @@
+.projectContainer {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/public/assets/images/c5.jpg);
+  background-blend-mode: multiply;
+  padding: 20px 0;
+}
+
+.projectContainer .projectHead {
+  color: #fff;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 3rem;
+  border-bottom: 5px solid #fff;
+}
+
+.projectContainer .projectGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4rem;
+  row-gap: 2rem;
+}
+
+.projectBox .projectImg {
+  height: 20rem;
+  width: 30rem;
+  border: 2px solid goldenrod;
+}
+.projectBox .projectTitle {
+  color: #fff;
+  background: #1818189c;
+  padding: 0 10px;
+}
+.projectBox .projectText {
+  font-family: "Helvetica" sans-serif;
+  color: #fff;
+  max-width: 30rem;
+  background: #1818189c;
+  padding: 0 10px;
+}
+
+.projectContainer .link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 40px;
+}
+
+.link a {
+  text-decoration: none;
+  background: #fff;
+  color: #181818;
+  padding: 8px 12px;
+  font-weight: 700;
+  border: 1px solid goldenrod;
+}
+
+.link a:hover {
+  color: blue;
+  transform: scale(1.1);
+  transition: transform 0.4s ease-in-out;
+}
+
+@media (max-width: 800px) {
+  .projectBox .projectImg {
+    height: 15rem;
+    width: 20rem;
+  }
+  .projectBox .projectText {
+    max-width: 20rem;
+  }
+
+  .projectBox .projectTitle {
+    max-width: 20rem;
+    text-align: center;
+  }
+}

@@ -1,0 +1,31 @@
+.footerContainer {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.footerContainer .top {
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  padding: 0 10px;
+}
+.footerContainer .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.bottom .icon {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.bottom .icon:not(:first-child) {
+  margin-left: 8px;
+}

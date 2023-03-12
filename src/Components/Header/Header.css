@@ -1,0 +1,75 @@
+.navContainer {
+  height: 4rem;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  transition: all 0.4s ease-in-out;
+  overflow-y: hidden;
+}
+
+.subContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMenu {
+  display: flex;
+}
+
+.navMenu a {
+  text-decoration: none;
+  color: #181818;
+}
+
+.navMenu a:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.navMenu a:hover {
+  color: blue;
+}
+
+.menuBar {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .navContainer {
+    height: 24rem;
+  }
+  .close {
+    height: 4rem;
+    align-items: center;
+  }
+  .menuBar {
+    margin-left: 20px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 3.5rem;
+    border: 2px solid #181818;
+    border-radius: 5px;
+  }
+
+  .menuBarOpen {
+    margin-top: 20px;
+  }
+  .navMenu {
+    width: 100%;
+    margin: 4rem 20px 0 0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .noMenu {
+    display: none;
+  }
+  .navMenu a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

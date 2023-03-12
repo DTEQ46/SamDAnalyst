@@ -1,0 +1,68 @@
+.sliderContainer {
+  position: relative;
+  height: calc(100vh - 4rem);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+.slide {
+  width: 100vw;
+  position: relative;
+  background: #181818;
+  background-blend-mode: darken;
+  transition: transform 1s ease-in-out;
+}
+
+.swipeF {
+  transform: translateX(-100vw);
+}
+.swipeS {
+  transform: translateX(-200vw);
+}
+.swipeN {
+  transform: none;
+}
+.slide img {
+  width: 100vw;
+  height: 100%;
+}
+
+.slide div {
+  position: absolute;
+  top: 0;
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+.slide p {
+  width: 60%;
+  text-align: center;
+  background: #1818180c;
+}
+
+.dotsContainer {
+  z-index: 2;
+  position: absolute;
+  bottom: 20px;
+  width: 6rem;
+  left: calc(50% - 3rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.dotsContainer .dot {
+  font-size: 15px;
+  color: #fff;
+}
+
+.dotsContainer .lightDot {
+  color: goldenrod;
+}
